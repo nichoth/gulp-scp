@@ -7,8 +7,7 @@ var scp = require('scp');
 
 module.exports = function (options) {
     options = assign({
-        port: 22,
-        user: ''
+        port: 22
     }, options);
 
     if (options.host === undefined) {
